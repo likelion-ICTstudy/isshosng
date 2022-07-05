@@ -1,3 +1,5 @@
+package out.production.linance_boj;
+
 import java.io.*;
 public class boj_2748{
 
