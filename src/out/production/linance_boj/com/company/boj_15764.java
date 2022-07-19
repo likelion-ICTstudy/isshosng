@@ -1,4 +1,4 @@
-package com.company;
+package out.production.linance_boj.com.company;
 
 import javax.swing.*;
 import java.io.BufferedReader;
