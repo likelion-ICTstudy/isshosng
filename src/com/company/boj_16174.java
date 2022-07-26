@@ -12,29 +12,30 @@ import java.io.InputStreamReader;
 
 public class boj_16174 {
 
-    int [] dx = {0,1}, dy = {1,0};
+    int[] dx = {0, 1}, dy = {1, 0};
     static int[][] arr;
 
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());
         int arr[][] = new int[n][n];
 
-        for (int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
 
         }
 
 
     }
 
-    public static void dfs(int i, int j){
-        if(arr[i][j]==-1){ //승리지점
+    public static void dfs(int i, int j) {
+        if (arr[i][j] == -1) { //승리지점
             System.out.println("HaruHaru");
-    }
-        for (int a=0; a<2; a++){
-            int x = i +
+        }
+        for (int a = 0; a < 2; a++) {
+            int x = i + 1;
         }
 
+    }
 }
